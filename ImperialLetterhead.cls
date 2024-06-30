@@ -46,7 +46,8 @@
 
 \usepackage{tabto} % For tabbing text fixed distances
 
-\raggedright % Suppress justification
+% The following option was removed by SV to re-enable justification at both margins.
+% \raggedright % Suppress justification
 
 \usepackage{url} % Automatically wrap URLs in \url{}
 \appto\UrlNoBreaks{\do\:} % Stop URL breaks happening at colons
